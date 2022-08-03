@@ -3,7 +3,7 @@ public class PatternQ4 {
         int N=14;
 ;        int space = 2*N-1;
         int star = 0;
-        for(int j = 1;j<= (2*N-1)/2;j++){
+        for(int j = 1;j<=(2*N)/2;j++){
             if(j <= N){
                 space = space - 2;
                 star++;
